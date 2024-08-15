@@ -1,8 +1,7 @@
-import {create} from "zustand";
-
 import {localStorageKey} from "@/constants/localStorage";
 import {storage} from "@/localStorage";
 import User from "@/types/user/User";
+import {create} from "zustand";
 
 type InitialState = {
   user?: User;

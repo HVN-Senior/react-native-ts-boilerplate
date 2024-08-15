@@ -1,6 +1,7 @@
 import {localStorageKey} from "@/constants/localStorage";
-import {jsonParse} from "./json";
+
 import {storage} from ".";
+import {jsonParse} from "./json";
 
 export const getUser = () => {
   const userString = storage.getString(localStorageKey.USER) ?? "{}";

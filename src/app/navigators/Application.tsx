@@ -1,8 +1,8 @@
 import React from "react";
-import {createStackNavigator} from "@react-navigation/stack";
-import {NavigationContainer} from "@react-navigation/native";
-import routes from "@/routes";
 import useAppState from "@/hooks/useAppState";
+import routes from "@/routes";
+import {NavigationContainer} from "@react-navigation/native";
+import {createStackNavigator} from "@react-navigation/stack";
 import {useTranslation} from "react-i18next";
 
 const Stack = createStackNavigator();

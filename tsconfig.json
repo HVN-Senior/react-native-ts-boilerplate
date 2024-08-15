@@ -16,6 +16,8 @@
     "jest.config.js",
     "babel.config.js",
     "index.js",
-    "env.d.ts"
+    "env.d.ts",
+    "nativewind-env.d.ts",
+    "__tests__/**/*"
   ]
 }

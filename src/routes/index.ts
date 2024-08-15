@@ -1,7 +1,8 @@
-import RouteItem from "../types/routes/RouteItem";
 import TabNavigator from "@/app/navigators/TabNavigator";
 import Setting from "@/app/screens/Setting";
 import colors from "@/styles/colors";
+
+import RouteItem from "../types/routes/RouteItem";
 
 const routes: RouteItem[] = [
   {

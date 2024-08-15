@@ -1,7 +1,6 @@
 import React from "react";
-import {StyleSheet, Text, View} from "react-native";
-
 import colors from "@/styles/colors";
+import {StyleSheet, Text, View} from "react-native";
 import Ionicons from "react-native-vector-icons/Ionicons";
 
 function Add(): React.JSX.Element {

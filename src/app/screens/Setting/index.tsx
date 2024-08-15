@@ -1,7 +1,6 @@
 import React from "react";
-import {StyleSheet, Text, View} from "react-native";
-
 import colors from "@/styles/colors";
+import {StyleSheet, Text, View} from "react-native";
 import FontAwesome from "react-native-vector-icons/FontAwesome";
 
 function Setting(): React.JSX.Element {

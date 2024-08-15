@@ -1,6 +1,6 @@
+import React from "react";
 import colors from "@/styles/colors";
 import {API_URL} from "@env";
-import React from "react";
 import {StyleSheet, Text, View} from "react-native";
 import AntDesign from "react-native-vector-icons/AntDesign";
 
@@ -8,7 +8,9 @@ function Home(): React.JSX.Element {
   const url = API_URL;
   return (
     <View style={styles.container}>
-      <Text style={styles.homeText}>HOME VAR</Text>
+      <Text style={styles.homeText} className="text-2xl">
+        HOME VAR
+      </Text>
       <AntDesign name="home" color={colors.lightText} size={24} />
       <Text style={styles.homeText}>ENV={url}</Text>
     </View>

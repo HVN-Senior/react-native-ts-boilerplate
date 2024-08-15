@@ -1,4 +1,5 @@
 import type {StackScreenProps} from "@react-navigation/stack";
+
 import FoodDetailParams from "./FoodDetailParams";
 
 export type ApplicationStackParamList = {

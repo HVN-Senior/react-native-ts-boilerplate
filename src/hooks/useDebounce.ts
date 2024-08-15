@@ -1,5 +1,5 @@
-import {DELAY_TIME_DEBOUNCE} from "@/constants/common";
 import {useEffect, useState} from "react";
+import {DELAY_TIME_DEBOUNCE} from "@/constants/common";
 
 const useDebounce = (value: string, delay: number = DELAY_TIME_DEBOUNCE, func?: () => void) => {
   const [debouncedValue, setDebouncedValue] = useState(value);

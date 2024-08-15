@@ -1,21 +1,21 @@
 /* eslint-disable react/no-unstable-nested-components */
-import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
-import {useTranslation} from "react-i18next";
 import React from "react";
-import {useShallow} from "zustand/react/shallow";
+import {useAuthenStore} from "@/store/useAuthenStore";
+import colors from "@/styles/colors";
+import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
 import {useNavigation} from "@react-navigation/native";
+import {useTranslation} from "react-i18next";
+import {Pressable} from "react-native";
 import AntDesign from "react-native-vector-icons/AntDesign";
+import FontAwesome from "react-native-vector-icons/FontAwesome";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import Octicons from "react-native-vector-icons/Octicons";
-import FontAwesome from "react-native-vector-icons/FontAwesome";
+import {useShallow} from "zustand/react/shallow";
 
+import Add from "../screens/Add";
 import Home from "../screens/Home";
 import Search from "../screens/Search";
-import colors from "@/styles/colors";
-import {Pressable} from "react-native";
-import {useAuthenStore} from "@/store/useAuthenStore";
 import Setting from "../screens/Setting";
-import Add from "../screens/Add";
 
 const Tab = createBottomTabNavigator();
 

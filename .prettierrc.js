@@ -1,5 +1,5 @@
 module.exports = {
-  endOfLine: 'auto',
+  endOfLine: "auto",
   arrowParens: "avoid",
   bracketSameLine: true,
   bracketSpacing: false,
@@ -9,4 +9,14 @@ module.exports = {
   tabWidth: 2,
   useTabs: false,
   semi: true,
+  importOrder: [
+    "^(react/(.*)$)|^(react$)",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^./src/(.*)$",
+    "^[./]",
+    "^./src/(?!.*[.]css$)[./].*$",
+  ],
+  importOrderParserPlugins: ["typescript", "jsx", "decorators-legacy"],
+  plugins: ["@ianvs/prettier-plugin-sort-imports"],
 };

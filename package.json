@@ -21,6 +21,7 @@
     "axios": "^1.6.7",
     "i18next": "^23.8.2",
     "luxon": "^3.4.4",
+    "nativewind": "^2.0.11",
     "react": "18.2.0",
     "react-i18next": "^14.0.5",
     "react-native": "^0.73.4",
@@ -38,6 +39,7 @@
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@react-native/babel-preset": "0.73.20",
     "@react-native/eslint-config": "0.73.2",
     "@react-native/metro-config": "0.73.4",
@@ -56,6 +58,7 @@
     "metro-react-native-babel-preset": "^0.77.0",
     "prettier": "2.8.8",
     "react-test-renderer": "18.2.0",
+    "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
   },
   "engines": {

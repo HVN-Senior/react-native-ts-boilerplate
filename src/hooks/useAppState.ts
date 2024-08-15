@@ -1,8 +1,8 @@
+import {useEffect, useRef, useState} from "react";
 import {localStorageKey} from "@/constants/localStorage";
 import {storage} from "@/localStorage";
 import {getUser} from "@/localStorage/user";
 import {useAuthenStore} from "@/store/useAuthenStore";
-import {useEffect, useRef, useState} from "react";
 import {AppState} from "react-native";
 import {useShallow} from "zustand/react/shallow";
 

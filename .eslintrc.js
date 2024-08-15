@@ -5,6 +5,7 @@ module.exports = {
     project: "./tsconfig.json",
   },
   rules: {
+    "react-native/no-inline-styles": 0,
     quotes: [2, "double", {avoidEscape: true}],
     "prettier/prettier": ["error", {singleQuote: false}],
   },

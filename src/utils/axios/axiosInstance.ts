@@ -1,7 +1,6 @@
-import axios from "axios";
-
 import {localStorageKey} from "@/constants/localStorage";
 import {storage} from "@/localStorage";
+import axios from "axios";
 
 const axiosInstance = axios.create({
   timeout: 100000,
